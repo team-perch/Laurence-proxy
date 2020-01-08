@@ -13,7 +13,9 @@
     "start:dev": "nodemon server/server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "newrelic": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
